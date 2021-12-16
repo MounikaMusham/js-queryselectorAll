@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 class="one">javascript is a scripting lnguage</h2>
+<p class="one">javascript is light-weight</p> 
+
+<p>Docment Object Model</p>
+
+<button onclick="query()">click</button>
+
+
+<script>
+
+function query() {
+  var x, i;
+  x = document.querySelectorAll(".one");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.backgroundColor = "yellow";
+    x[i].style.color = "brown";
+  }
+}
+</script>
+
+</body>
+</html>
